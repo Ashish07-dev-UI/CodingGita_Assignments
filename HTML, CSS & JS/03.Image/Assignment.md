@@ -42,7 +42,6 @@ Also add a normal `src` as fallback.
 Both should have proper `alt` text and width of 250px.
 
 
-
 ---
 
 **Answers**
