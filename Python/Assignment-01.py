@@ -35,10 +35,10 @@ print("Age:", student_age)
 
 # # <---------Question-7--------------->
 
-Student_Name = "Karan"
+Student_name = "Karan"
 student_name = "Raj"
 
-print("Student 1:", Student_Name)
+print("Student 1:", Student_name)
 print("Student 2:", student_name)
 
 # # <---------Question-8--------------->
@@ -133,7 +133,7 @@ role = "Software Developer"
 company="ABC Technologies"
 experience="2 years"
 
-# print("my name is",name+". I work as a",role,"at",company,"and I have",experience,"of experience.")
+print("my name is",name+". I work as a",role,"at",company,"and I have",experience,"of experience.")
 
 
 # # <------------Question-18--------------->
@@ -170,12 +170,12 @@ print("My name is",name,". My father's name is",father_name+".","My Mother name 
 # # <------------Question-21--------------->
 
 name="Neha Sharma"
-Subject="Python Programming"
+subject="Python Programming"
 marks=88
 grade="A"
 percentage=88.0
 
-print(name,"scored",marks,"marks in",Subject+". Her grade is",grade,"and her percentage is",str(percentage)+".")
+print(name,"scored",marks,"marks in",subject+". Her grade is",grade,"and her percentage is",str(percentage)+".")
 
 
 # #<--------------Question-22---------------->
