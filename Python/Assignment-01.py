@@ -35,10 +35,10 @@ print("Age:", student_age)
 
 # # <---------Question-7--------------->
 
-Student_name1 = "Karan"
+student_name1 = "Karan"
 student_name2 = "Raj"
 
-print("Student 1:", Student_name1)
+print("Student 1:", student_name1)
 print("Student 2:", student_name2)
 
 # # <---------Question-8--------------->
