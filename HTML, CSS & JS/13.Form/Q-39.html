@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload Form</title>
+</head>
+<body>
+
+<form action="/upload.php" method="post" enctype="multipart/form-data">
+
+    <label for="resume">Resume:</label>
+    <input type="file" id="resume" name="resume" accept=".pdf,.docx" required>
+
+    <br><br>
+
+    <label for="photo">Profile Photo:</label>
+    <input type="file" id="photo" name="photo" accept="image/*">
+
+    <br><br>
+
+    <input type="submit" value="Upload Files">
+
+</form>
+
+</body>
+</html>

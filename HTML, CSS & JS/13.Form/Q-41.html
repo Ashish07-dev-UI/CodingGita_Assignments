@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Form</title>
+</head>
+<body>
+
+<form action="/apply.php" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Experience</legend>
+
+        <label for="experience">Work Experience:</label><br>
+        <textarea id="experience" name="experience" rows="5" cols="40"></textarea>
+    </fieldset>
+
+    <br>
+
+    <label for="resume">Resume (PDF):</label>
+    <input type="file" id="resume" name="resume" accept=".pdf" required>
+
+    <br><br>
+
+    <p>Employment Type:</p>
+
+    <input type="radio" id="fulltime" name="employment" value="Full Time">
+    <label for="fulltime">Full Time</label>
+
+    <input type="radio" id="parttime" name="employment" value="Part Time">
+    <label for="parttime">Part Time</label>
+
+    <br><br>
+
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I agree to the Terms and Conditions</label>
+
+    <br><br>
+
+    <input type="submit" value="Submit Application">
+
+    <input type="submit" value="Save Draft" formnovalidate>
+
+</form>
+
+</body>
+</html>

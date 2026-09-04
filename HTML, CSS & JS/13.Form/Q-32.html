@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formmethod Override</title>
+</head>
+<body>
+
+<form action="/submit.php" method="post">
+
+    <label for="search">Search:</label>
+    <input type="text" id="search" name="search">
+
+    <br><br>
+
+    <input type="submit" value="Submit (POST)">
+
+    <input type="submit"
+           value="Submit (GET)"
+           formmethod="get">
+
+</form>
+
+</body>
+</html>
