@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Full Page Iframe Layout</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+        }
+
+        header {
+            height: 60px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 60px;
+            font-size: 24px;
+        }
+
+        iframe {
+            width: 100%;
+            height: calc(100vh - 60px);
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        My Website
+    </header>
+
+    <iframe
+        src="https://www.example.com"
+        title="Full Page Content"
+        allow="fullscreen; gyroscope; usb">
+    </iframe>
+
+</body>
+</html>

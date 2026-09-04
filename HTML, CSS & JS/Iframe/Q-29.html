@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iframe Comparison</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        iframe {
+            width: 48%;
+            height: 350px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Iframe Permission Comparison</h2>
+
+    <div class="container">
+
+        <iframe
+            src="https://www.example.com"
+            title="Version A - Fullscreen Only"
+            allow="fullscreen">
+        </iframe>
+
+        <iframe
+            src="https://www.example.com"
+            title="Version B - Fullscreen, Gyroscope and USB"
+            allow="fullscreen; gyroscope; usb">
+        </iframe>
+
+    </div>
+
+</body>
+</html>
