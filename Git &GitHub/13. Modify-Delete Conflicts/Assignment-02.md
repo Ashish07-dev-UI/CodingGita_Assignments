@@ -47,4 +47,14 @@
 
 ---
 
+<img width="1258" height="101" alt="Screenshot 2026-09-06 182144" src="https://github.com/user-attachments/assets/27e1d74e-2c07-465b-9058-0a1325eab5df" />
 
+
+---
+
+<img width="1488" height="981" alt="Screenshot 2026-09-06 182207" src="https://github.com/user-attachments/assets/06f5412b-5d88-4e0a-bb49-6b90563d520c" />
+
+
+---
+
+GitHub repo link --> https://github.com/Ashish07-dev-UI/Modify-Delete-Conflict-Practice-2
