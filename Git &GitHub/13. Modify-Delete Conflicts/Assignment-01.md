@@ -1,4 +1,4 @@
-### Assignment 1 
+### Assignment 1  
 **Conflict during `git pull`**
 
 **Goal:** Face and resolve a conflict that appears when you run `git pull origin main`.
