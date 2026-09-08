@@ -1,6 +1,6 @@
 ## Assignment 1 – Understanding HEAD and Basic Reset (Easy)
 
-**Goal:** Practice viewing history and using a simple mixed reset.
+**Goal:** Practice viewing history and using a simple mixed reset. 
 
 1. Create or open your practice repository.
 2. Make three simple commits (you can create/edit a file called `notes.txt`):
