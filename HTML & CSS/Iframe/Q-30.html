@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Best Practice Iframe Example</title>
+
+    <style>
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>HTML5 Iframe Examples</h2>
+
+    <!-- Normal webpage does not require any special permissions -->
+    <iframe
+        src="https://www.example.com"
+        title="Example Website">
+    </iframe>
+
+    <!-- Video or interactive content needs fullscreen and gyroscope -->
+    <iframe
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        title="Interactive Video"
+        allow="fullscreen; gyroscope"
+        allowfullscreen>
+    </iframe>
+
+    <!-- Device page needs USB permission -->
+    <iframe
+        src="https://device.example.com"
+        title="USB Device Page"
+        allow="usb">
+    </iframe>
+
+</body>
+</html>

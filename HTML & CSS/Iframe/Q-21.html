@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Named Iframe</title>
+
+    <style>
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: lightblue;
+            text-decoration: none;
+            color: black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Device Control</h2>
+
+    <a href="https://device.example.com" target="myDeviceFrame">
+        Open Device Page
+    </a>
+
+    <br><br>
+
+    <iframe
+        name="myDeviceFrame"
+        width="100%"
+        height="400"
+        title="USB Device Frame"
+        allow="usb">
+    </iframe>
+
+</body>
+</html>

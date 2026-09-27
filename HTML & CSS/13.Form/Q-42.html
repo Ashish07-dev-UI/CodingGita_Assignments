@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Override Attributes</title>
+</head>
+<body>
+
+<form action="/submit.php" method="post" target="_self">
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <br><br>
+
+    <!-- Uses default action, method and target -->
+    <input type="submit" value="Default Submit">
+
+    <!-- Overrides action -->
+    <input type="submit"
+           value="Submit to Admin"
+           formaction="/admin.php">
+
+    <!-- Overrides method -->
+    <input type="submit"
+           value="Submit with GET"
+           formmethod="get">
+
+    <!-- Overrides validation and target -->
+    <input type="submit"
+           value="Preview Draft"
+           formnovalidate
+           formtarget="_blank">
+
+</form>
+
+</body>
+</html>

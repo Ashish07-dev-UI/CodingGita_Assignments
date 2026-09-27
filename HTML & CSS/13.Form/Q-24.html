@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Upload</title>
+</head>
+<body>
+
+<form action="/upload.php" method="post" enctype="multipart/form-data">
+
+    <label for="document">Upload File:</label>
+
+    <input type="file"
+           id="document"
+           name="document"
+           accept=".pdf,.docx"
+           required>
+
+    <br><br>
+
+    <input type="submit" value="Upload">
+
+</form>
+
+</body>
+</html>
