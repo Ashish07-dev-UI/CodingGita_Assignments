@@ -1,6 +1,6 @@
 ### Assignment 5: Complete Real Scenario
 
-**Objective:** Apply branching in a realistic situation.
+**Objective:** Apply branching in a realistic situation. 
 
 **Scenario:**  
 You are working on a website project. Currently you are on the `main` branch. You need to add two new pages: **About** and **Services**.
