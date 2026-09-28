@@ -134,7 +134,7 @@ HTML :- Its used to make the structure of wwe
 
 
 
-Points	Fronted (Client-side)	Backend (Server-side)
+Fronted (Client-side)	Backend (Server-side)
 
 • Runs on	• User's browser	•  Remote server
 
