@@ -1,0 +1,9 @@
+// Predict the output:
+
+
+
+
+let x = 10;
+let y = 20;
+let result = (x && y) && (x > y);
+console.log(result);                                    // Output => false
