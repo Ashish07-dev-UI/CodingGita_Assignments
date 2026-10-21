@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    padding: 20px;
+    /* border: 2px solid grey; */
+    height: 500px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+h3 {
+    margin-top: 0;
+    color: #666;
+    font-weight: normal;
+}
+
+.contain{
+    border: 1.5px solid rgb(198, 197, 197);
+    height: 500px;
+    width: 850px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: right;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-red th {
+    background-color: #e44d3a;
+    color: white;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.header-grey th {
+    color: #333;
+    font-weight: bold;
+}
+
+.blue {
+    color: #2b82c9;
+    text-align: left;
+}
+
+.dismissal {
+    color: #888;
+    text-align: left;
+}
+
+.bold-stat {
+    font-weight: bold;
+    color: #000;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+.left{
+    text-align: left;
+}
+.align{
+    padding-left: 27px;
+}
+.batsman{
+    text-align: left;
+}
+.total{
+    text-align: right;
+}
